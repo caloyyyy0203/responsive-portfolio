@@ -625,7 +625,7 @@ section{
     font-size: 1rem;
     font-weight: bold;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, background 0.3s ease;
+    transition: transform 0.3s ease, background 0.3s ease !important;
     width: 120px;
     height: 120px;
 }
@@ -700,13 +700,14 @@ section{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 300px;
     text-align: center;
-    transition: transform 0.3s ease-in-out !important;
+    transition: transform 0.3s ease, background 0.3s ease !important;
 }
 
 .project:hover {
-    transform: scale(1.1) !important;
+    transform: scale(1.05) !important; /* Slightly reduced for a more natural effect */
     background: #efefef;
 }
+
 
 .project img {
     width: 100%;

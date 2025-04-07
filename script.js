@@ -1,4 +1,10 @@
-// Function to trigger animations when an element comes into the viewport
+// This script uses IntersectionObserver to trigger animations when elements enter the viewport.
+// While CSS-only solutions like the :has(:in-viewport) or :view-transition pseudo-classes are emerging,
+// they are not yet fully supported across all major browsers. Hence, JavaScript is used as a reliable fallback.
+// JavaScript is used only to detect when certain elements are in the viewport; all animations are handled purely with CSS.
+
+
+// Function to trigger animations when an element comes into the viewport 
 function handleIntersection(entries, observer) {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
