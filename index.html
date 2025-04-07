@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Carl Wyndel Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="hero" class="hero">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="links">
+                    <div class="link animate-on-scroll"><a href="#about">About</a></div>
+                    <div class="link animate-on-scroll"><a href="#skills">Skills</a></div>
+                    <div class="link animate-on-scroll"><a href="#projects">Projects</a></div>
+                    <div class="link contact-btn animate-on-scroll"><a href="#contact">Contact Me</a></div>
+                </div>
+                <i class="fa-solid fa-bars hamburg animate-on-scroll" onclick="hamburg()"></i>
+            </div>
+        </nav>
+    
+        <div class="main-container">
+            <div class="content">
+                <div class="intro animate-on-scroll fade-left">
+                    <h1>Hey I'm</h1>
+                    <span>Carl Wyndel</span>
+                </div>
+                <div class="typewriter animate-on-scroll fade-right">I'm a <span></span></div>
+                <div class="scroll-down animate-on-scroll">
+                    <a href="#about">Scroll for more</a>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about" class="about">
+        <div class="main-container">
+            <div class="image">
+                <img class="animate-on-scroll scale-up" src="/images/main.png" alt="Profile Image">
+            </div>
+            <div class="content animate-on-scroll">
+                <h1 class="animate-on-scroll fade-bottom">About Me</h1>
+                <p class="animate-on-scroll fade-right">I am a 4th-year student from the University of the Philippines Cebu taking up BS Computer Science.</p>
+                <p class="animate-on-scroll fade-left">I am a passionate developer who loves solving real-world problems through code. My interests lie in web development, artificial intelligence, and software engineering, where I enjoy building innovative and efficient solutions.</p>
+                <div class="social-links">
+                    <a href="https://github.com/caloyyyy0203" class="animate-on-scroll rotate-in"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/Carlwyndelasoy" class="animate-on-scroll rotate-in"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/carl-wyndel-asoy-944b65293/" class="animate-on-scroll rotate-in"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="skills" class="skills">
+        <h2 class="animate-on-scroll fade-top">My Skills</h2>
+        <div class="skills-container">
+            <div class="skill animate-on-scroll fade-bottom">
+                <i class="fab fa-html5"></i>
+                <span>HTML</span>
+            </div>
+            <div class="skill animate-on-scroll fade-left">
+                <i class="fab fa-css3-alt"></i>
+                <span>CSS</span>
+            </div>
+            <div class="skill animate-on-scroll fade-right">
+                <i class="fab fa-js"></i>
+                <span>JavaScript</span>
+            </div>
+            <div class="skill animate-on-scroll fade-top">
+                <i class="fab fa-react"></i>
+                <span>React</span>
+            </div>
+            <div class="skill animate-on-scroll fade-top">
+                <i class="fab fa-react"></i>
+                <span>React</span>
+            </div>
+            <div class="skill animate-on-scroll fade-right">
+                <i class="fab fa-js"></i>
+                <span>JavaScript</span>
+            </div>
+            <div class="skill animate-on-scroll fade-left">
+                <i class="fab fa-css3-alt"></i>
+                <span>CSS</span>
+            </div>
+            <div class="skill animate-on-scroll fade-bottom">
+                <i class="fab fa-html5"></i>
+                <span>HTML</span>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects" class="projects">
+        <h2 class="animate-on-scroll fade-bottom">My Projects</h2>
+        <div class="projects-container animate-on-scroll">
+            <div class="project animate-on-scroll fade-left">
+                <img src="/images/projects/project1.png" alt="Portfolio Website">
+                <h3>Servicita</h3>
+                <p>A mobile app connecting service providers with seekers using the MERN stack and React Native. Features secure authentication, AI chatbots, push notifications, and PayMongo integration.</p>
+                <a href="https://github.com/yourusername/servicita" class="repo-link" target="_blank">Visit Repo >></a>
+            </div>
+            <div class="project animate-on-scroll fade-top">
+                <img src="/images/projects/project2.png" alt="To-Do App">
+                <h3>HoneyOS</h3>
+                <p>A voice-enabled lightweight operating system built with Neutralino.js, HTML, and CSS. Includes basic applications and scheduling algorithm simulations.</p>
+                <a href="https://github.com/yourusername/honeyos" class="repo-link" target="_blank">Visit Repo >></a>
+            </div>
+            <div class="project animate-on-scroll fade-right">
+                <img src="/images/projects/project3.png" alt="Weather App">
+                <h3>Loterya</h3>
+                <p>A multiplayer digital adaptation of Loteria with a Filipino twist, built using Godot. Features culturally inspired visuals and Bingo-like mechanics.</p>
+                <a href="https://github.com/yourusername/loterya" class="repo-link" target="_blank">Visit Repo >></a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact">
+        <h2 class="animate-on-scroll">Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required class="animate-on-scroll">
+            <input type="email" placeholder="Your Email" required class="animate-on-scroll">
+            <textarea placeholder="Your Message" required class="animate-on-scroll"></textarea>
+            <button type="submit" class="animate-on-scroll">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
